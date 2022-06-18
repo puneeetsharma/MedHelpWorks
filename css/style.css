@@ -324,6 +324,77 @@ footer .copyright{
     text-align: center;
 }
 
+/*medicine Page css*/
+
+#search{
+    background-image: url("/img/pexels-artem-podrez-4492070.jpg");
+    min-height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search .search-bar {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 0px 10px;
+}
+
+#search .search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding-right: 250px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #088178;
+}
+
+::placeholder{
+    color: #088178;
+}
+
+#search .search-bar button img{
+    width: 20px;
+}
+
+#search .search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #088178;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:799px) {
     #navbar {
         display: flex;
