@@ -1,0 +1,311 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 60%;
+
+    }
+
+    .navbar {
+        overflow: hidden;
+        background-color: rgb(174, 228, 228);
+        position: sticky;
+        display: flex;
+        top: 0;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .navbarlogin {
+        overflow: hidden;
+        background-color: rgb(119, 241, 223);
+        position: sticky;
+        display: flex;
+        top: 0;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .navbar a {
+        float: left;
+        display: flex;
+        color: #000000;
+        text-align: center;
+        font-family: Lobster;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .nav-list {
+        width: 56%;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-list li {
+        list-style: none;
+        padding: 20px 30px;
+
+
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+
+    }
+
+    .nav-list li a:hover {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 120%;
+
+    }
+
+    .rightNav {
+        background-color: rgb(119, 241, 223);
+        width: 50%;
+        text-align: right;
+        padding: 0.23px;
+    }
+
+    #search {
+        padding: 2px;
+        font-size: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+    .background {
+        /* background: rgba(0,0,0,0.7) url(../img/bg.jpg); */
+        background-image: url("/img/bg.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/aa.jpg');
+        /* background: linear-gradient(to bottom, #8bfd68, #665f59, #8bfd68);*/
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+
+
+    .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+    }
+
+    .firstSection {
+        height: 28vh;
+        padding: 15%;
+        margin-top: 0%;
+    }
+
+    .firstSectionsearch {
+        height: 75vh;
+        padding: 7%;
+        margin-top: 0%;
+    }
+
+    .firstSectionindex {
+        height: 130vh;
+        padding: 15%;
+        margin-top: 0%;
+    }
+
+    .firstSectionwebdata {
+        height: 28vh;
+        padding: 15%;
+        margin-top: 0%;
+    }
+
+    .firstSectionmovienotfound {
+        height: 0vh;
+        padding: 0%;
+        margin-top: 0%;
+    }
+
+    .firsthalf {}
+
+    .secondhalf img {
+        width: 120%;
+        border: black;
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    .text-big {
+        font-size: 41px;
+
+    }
+
+    .text-small {
+        font-size: 20px;
+        font-family: Lobster;
+
+
+    }
+
+    .btn {
+        padding: 8px 20px;
+        margin: 7px 3px;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: 16px;
+        background: none;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: Lobster;
+    }
+
+    .btn:hover {
+        color: rgb(0, 0, 0);
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .btn-sm {
+        padding: 2px 10px;
+        color: black;
+        border: 2px solid rgb(0, 0, 0);
+        font-family: Lobster;
+    }
+
+    .btn-sm:hover {
+        color: rgb(255, 255, 255);
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .contact {
+        height: 34vh;
+    }
+
+    .text-center {
+        text-align: center;
+        color: rgb(7, 7, 7);
+        font-size: 60px;
+        padding: 20px;
+        font-family: Lobster;
+
+
+    }
+
+    .form {
+        max-width: 1200px;
+        margin: 42px auto;
+    }
+
+    .form-input {
+        margin: 25px 0;
+        padding: 5px;
+        width: 100%;
+        font-size: 18px;
+        border: 2px solid rgb(3, 3, 3);
+        border-radius: 10px;
+        font-family: Lobster;
+    }
+
+    .loginform {
+        max-width: 800px;
+        margin: 42px auto;
+    }
+
+    .text-footer {
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 137, 52, 1);
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        font-family: Lobster;
+    }
+
+    th,
+    td {
+        padding: 31px;
+        text-align: left;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        font-size: 23px;
+    }
+
+    tr:hover {
+        background-color: rgba(255, 137, 52, 1);
+    }
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    a.rlink:visited {
+        color: #ffffff;
+    }
+
+    a.rlink:hover {
+        color: rgb(0, 0, 0);
+        font-size: 110%;
+    }
+
+    .input-home {
+        color: #19919B;
+    }
+
+    .input-home {
+        width: 440px;
+        height: 58px;
+        line-height: 58px;
+        border-radius: 6px 0 0 6px;
+        border-right: none;
+        border-left: 1px solid #009990;
+        border-top: 1px solid #009990;
+        border-bottom: 1px solid #009990;
+        background: url(https://www.logogenie.net/images/indeximg/crayon.png) 22px 12px no-repeat #FFF;
+        font-size: 22px;
+        padding: 0 0 0 70px;
+        position: relative;
+        z-index: 100;
+        -webkit-transition: all 125ms ease-out;
+        -moz-transition: all 125ms ease-out;
+        -o-transition: all 125ms ease-out;
+        transition: all 125ms ease-out;
+    }
+
+    .input-btn-go {
+        height: 58px;
+        border-radius: 0 6px 6px 0;
+        color: #FFF;
+        background-color: #FFA20D;
+        font-size: 22px;
+        border-left: none;
+        border-right: 1px solid #009990;
+        border-top: 1px solid #009990;
+        border-bottom: 1px solid #009990;
+        width: 220px;
+        z-index: 102;
+        outline: 0;
+        -webkit-transition: all 125ms ease-out;
+        -moz-transition: all 125ms ease-out;
+        -o-transition: all 125ms ease-out;
+        transition: all 125ms ease-out;
+        position: relative;
+        font-family: 'Open sans';
+    }
+
+
+    
